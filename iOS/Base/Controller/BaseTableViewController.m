@@ -67,8 +67,10 @@
         } @catch (NSException *exception) {
             destVC = [[NSClassFromString(rowModel.destVC) alloc] init];
         } @finally {
-            destVC.title = rowModel.title;
-            [self.navigationController pushViewController:destVC animated:YES];
+            if (destVC) {
+                destVC.title = rowModel.title;
+                [self.navigationController pushViewController:destVC animated:YES];
+            }
         }
     }else if (rowModel.operation){
         rowModel.operation(tableView, indexPath);
@@ -91,8 +93,10 @@
                 } @catch (NSException *exception) {
                     destVC = [[NSClassFromString(sectionModel.destVC) alloc] init];
                 } @finally {
-                    destVC.title = sectionModel.header;
-                    [self.navigationController pushViewController:destVC animated:YES];
+                    if (destVC) {
+                        destVC.title = sectionModel.header;
+                        [self.navigationController pushViewController:destVC animated:YES];
+                    }
                 }
             }else{
                 sectionModel.open = !sectionModel.isOpened;
