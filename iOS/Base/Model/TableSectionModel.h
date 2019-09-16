@@ -24,6 +24,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSArray<TableRowModel *> *items;
 
+@property (nonatomic, assign) NSInteger section;
+
+@property (nonatomic, copy) void(^operation)(UITableView *tableView, NSInteger section);
+
 @end
 
 NS_ASSUME_NONNULL_END

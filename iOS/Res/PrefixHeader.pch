@@ -21,6 +21,7 @@
 /// 快速生成URL
 #define HCURL(urlStr)               [NSURL URLWithString:urlStr]
 #define HCRequest(urlStr)           [NSURLRequest requestWithURL:HCURL(urlStr)]
+#define RandomColor                 [UIColor colorWithRed:arc4random_uniform(256) / 255.f green:arc4random_uniform(256) / 255.f blue:arc4random_uniform(256) / 255.f alpha:1.0]
 
 // weak strong 引用
 #ifndef weakify

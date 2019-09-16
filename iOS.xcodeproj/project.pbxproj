@@ -22,6 +22,9 @@
 		8D5F15142327BB2100E9BF76 /* BaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F15132327BB2100E9BF76 /* BaseTableHeaderFooterView.m */; };
 		8D5F15192327CB9600E9BF76 /* MultiThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F15182327CB9600E9BF76 /* MultiThreadVC.m */; };
 		8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F151C2327CD0200E9BF76 /* MultiThreadVC.plist */; };
+		8DF0AB43232F9B0F00B939BF /* PinterestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB42232F9B0F00B939BF /* PinterestVC.m */; };
+		8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB45232F9FF500B939BF /* WaterFallLayout.m */; };
+		8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB48232FB31200B939BF /* WaterFallCollectionViewCell.m */; };
 		F15918EE2C97370D1592282F /* libPods-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC874758A9DA4CE9EA3C5016 /* libPods-iOS.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,12 @@
 		8D5F15172327CB9600E9BF76 /* MultiThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadVC.h; sourceTree = "<group>"; };
 		8D5F15182327CB9600E9BF76 /* MultiThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadVC.m; sourceTree = "<group>"; };
 		8D5F151C2327CD0200E9BF76 /* MultiThreadVC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultiThreadVC.plist; sourceTree = "<group>"; };
+		8DF0AB41232F9B0F00B939BF /* PinterestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinterestVC.h; sourceTree = "<group>"; };
+		8DF0AB42232F9B0F00B939BF /* PinterestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinterestVC.m; sourceTree = "<group>"; };
+		8DF0AB44232F9FF500B939BF /* WaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
+		8DF0AB45232F9FF500B939BF /* WaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallLayout.m; sourceTree = "<group>"; };
+		8DF0AB47232FB31200B939BF /* WaterFallCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallCollectionViewCell.h; sourceTree = "<group>"; };
+		8DF0AB48232FB31200B939BF /* WaterFallCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallCollectionViewCell.m; sourceTree = "<group>"; };
 		CC874758A9DA4CE9EA3C5016 /* libPods-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC090370C970F446B1DA07F3 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +147,7 @@
 		8D5F14FB2327B08100E9BF76 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8DF0AB40232F9AAC00B939BF /* 瀑布流 */,
 				8D5F15032327B14500E9BF76 /* 多线程 */,
 			);
 			path = Classes;
@@ -194,6 +204,19 @@
 				8D5F150D2327B47000E9BF76 /* TableRowModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8DF0AB40232F9AAC00B939BF /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				8DF0AB41232F9B0F00B939BF /* PinterestVC.h */,
+				8DF0AB42232F9B0F00B939BF /* PinterestVC.m */,
+				8DF0AB44232F9FF500B939BF /* WaterFallLayout.h */,
+				8DF0AB45232F9FF500B939BF /* WaterFallLayout.m */,
+				8DF0AB47232FB31200B939BF /* WaterFallCollectionViewCell.h */,
+				8DF0AB48232FB31200B939BF /* WaterFallCollectionViewCell.m */,
+			);
+			path = "瀑布流";
 			sourceTree = "<group>";
 		};
 		BE6F4A7E9E41BF062D985625 /* Frameworks */ = {
@@ -303,8 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D27436223276B0A00B0E5D3 /* MainViewController.m in Sources */,
+				8DF0AB43232F9B0F00B939BF /* PinterestVC.m in Sources */,
 				8D5F14FF2327B0C300E9BF76 /* BaseViewController.m in Sources */,
 				8D27436D23276B0B00B0E5D3 /* main.m in Sources */,
+				8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */,
+				8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */,
 				8D27435F23276B0A00B0E5D3 /* AppDelegate.m in Sources */,
 				8D5F15192327CB9600E9BF76 /* MultiThreadVC.m in Sources */,
 				8D5F15112327B84200E9BF76 /* BaseTableViewCell.m in Sources */,

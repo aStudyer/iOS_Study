@@ -41,6 +41,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     TableSectionModel *sectionModel = self.dataList[section];
+    sectionModel.section = section;
     return sectionModel.isOpened ? sectionModel.items.count : 0;
 }
 
@@ -49,6 +50,7 @@
     
     TableSectionModel *sectionModel = self.dataList[indexPath.section];
     TableRowModel *rowModel = sectionModel.items[indexPath.row];
+    rowModel.indexPath = indexPath;
     
     cell.data = rowModel;
     
@@ -98,7 +100,9 @@
                         [self.navigationController pushViewController:destVC animated:YES];
                     }
                 }
-            }else{
+            }else if (sectionModel.operation) {
+                sectionModel.operation(tableView, section);
+            }else {
                 sectionModel.open = !sectionModel.isOpened;
                 [tableView reloadData];
             }

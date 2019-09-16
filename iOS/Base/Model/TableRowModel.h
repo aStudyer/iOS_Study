@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *destVC;
 
+@property (nonatomic, strong) NSIndexPath *indexPath;
+
 @property (nonatomic, copy) void(^operation)(UITableView *tableView, NSIndexPath *indexPath);
 
 @end
