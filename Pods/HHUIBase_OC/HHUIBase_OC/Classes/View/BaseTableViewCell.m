@@ -40,6 +40,12 @@
 - (void)setData:(TableRowModel *)data{
     _data = data;
     self.lb_content.text = _data.title;
+    
+    if (data.destVC.length) {
+        self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }else{
+        self.accessoryType = UITableViewCellAccessoryNone;
+    }
 }
 
 #pragma mark - Getter

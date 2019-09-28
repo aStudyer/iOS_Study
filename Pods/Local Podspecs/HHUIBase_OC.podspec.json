@@ -1,0 +1,27 @@
+{
+  "name": "HHUIBase_OC",
+  "version": "0.1.2",
+  "summary": "A short description of HHUIBase_OC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wxGithup/HHUIBase_OC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wxGithup": "718753218@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wxGithup/HHUIBase_OC.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "HHUIBase_OC/Classes/**/*",
+  "dependencies": {
+    "MJExtension": [
+
+    ]
+  }
+}

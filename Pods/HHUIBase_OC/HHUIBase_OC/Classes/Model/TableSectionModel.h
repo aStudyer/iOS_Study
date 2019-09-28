@@ -22,9 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *destVC;
 
-@property (nonatomic, strong) NSArray<TableRowModel *> *items;
-
 @property (nonatomic, assign) NSInteger section;
+
+@property (nonatomic, strong) NSArray<TableRowModel *> *items;
 
 @property (nonatomic, copy) void(^operation)(UITableView *tableView, NSInteger section);
 

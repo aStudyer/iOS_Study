@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    NSLog(@"Welcome to %@", NSStringFromClass(self.class));
+}
+
+- (void)dealloc{
+    NSLog(@"%@ is dealloc", NSStringFromClass(self.class));
 }
 
 @end

@@ -1,16 +1,28 @@
 PODS:
+  - HHUIBase_OC (0.1.2):
+    - MJExtension
   - MJExtension (3.1.1)
 
 DEPENDENCIES:
-  - MJExtension
+  - HHUIBase_OC (from `https://github.com/aStudyer/HHUIBase_OC.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - MJExtension
 
+EXTERNAL SOURCES:
+  HHUIBase_OC:
+    :git: https://github.com/aStudyer/HHUIBase_OC.git
+
+CHECKOUT OPTIONS:
+  HHUIBase_OC:
+    :commit: f5d4ec6af0d4deb64651d8b6e0a9e4a97f2a84a5
+    :git: https://github.com/aStudyer/HHUIBase_OC.git
+
 SPEC CHECKSUMS:
+  HHUIBase_OC: 8f78634ad078c526cb4b7a7f0802626ddb411887
   MJExtension: dfef9855ee178e1ce67f3e03b71ca4226330d87d
 
-PODFILE CHECKSUM: ffd0736c53ccc8a16e4613cb3232778bf93f4384
+PODFILE CHECKSUM: c2396601b7a45489872579c7f2058bbc5c13ab70
 
 COCOAPODS: 1.6.1

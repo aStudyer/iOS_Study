@@ -12,7 +12,7 @@
 
 + (NSDictionary *)mj_objectClassInArray{
     return @{
-             HC_KP(TableSectionModel, items): [TableRowModel class]
+             @"items": [TableRowModel class]
              };
 }
 

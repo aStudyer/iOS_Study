@@ -60,7 +60,9 @@
         _lb_content = [UIButton buttonWithType:(UIButtonTypeCustom)];
         _lb_content.backgroundColor = [UIColor colorWithRed:0.776 green:0.804 blue:0.843 alpha:1.00];
         [_lb_content setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
-        _lb_content.titleLabel.font = [UIFont systemFontOfSize:16 weight:(UIFontWeightBold)];
+        if (@available(iOS 8.2, *)) {
+            _lb_content.titleLabel.font = [UIFont systemFontOfSize:16 weight:(UIFontWeightBold)];
+        }
         [_lb_content addTarget:self action:@selector(_lb_content_did_click) forControlEvents:(UIControlEventTouchUpInside)];
         _lb_content.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     }

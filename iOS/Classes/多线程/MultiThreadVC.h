@@ -6,7 +6,7 @@
 //  Copyright © 2019 com.aStudyer. All rights reserved.
 //
 
-#import "BaseTableViewController.h"
+#import <HHUIBase_OC/BaseTableViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
