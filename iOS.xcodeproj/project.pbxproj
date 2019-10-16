@@ -17,6 +17,8 @@
 		8D5F15052327B2F800E9BF76 /* MainViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F15042327B2F800E9BF76 /* MainViewController.plist */; };
 		8D5F15192327CB9600E9BF76 /* MultiThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F15182327CB9600E9BF76 /* MultiThreadVC.m */; };
 		8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F151C2327CD0200E9BF76 /* MultiThreadVC.plist */; };
+		8D69620E2357CFC400E0093F /* AVCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69620D2357CFC400E0093F /* AVCaptureVC.swift */; };
+		8D6962102357DA4400E0093F /* AVCaptureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D69620F2357DA4400E0093F /* AVCaptureVC.xib */; };
 		8DF0AB43232F9B0F00B939BF /* PinterestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB42232F9B0F00B939BF /* PinterestVC.m */; };
 		8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB45232F9FF500B939BF /* WaterFallLayout.m */; };
 		8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB48232FB31200B939BF /* WaterFallCollectionViewCell.m */; };
@@ -43,6 +45,9 @@
 		8D5F15172327CB9600E9BF76 /* MultiThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadVC.h; sourceTree = "<group>"; };
 		8D5F15182327CB9600E9BF76 /* MultiThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadVC.m; sourceTree = "<group>"; };
 		8D5F151C2327CD0200E9BF76 /* MultiThreadVC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultiThreadVC.plist; sourceTree = "<group>"; };
+		8D69620C2357CFC300E0093F /* iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D69620D2357CFC400E0093F /* AVCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureVC.swift; sourceTree = "<group>"; };
+		8D69620F2357DA4400E0093F /* AVCaptureVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVCaptureVC.xib; sourceTree = "<group>"; };
 		8DF0AB41232F9B0F00B939BF /* PinterestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinterestVC.h; sourceTree = "<group>"; };
 		8DF0AB42232F9B0F00B939BF /* PinterestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinterestVC.m; sourceTree = "<group>"; };
 		8DF0AB44232F9FF500B939BF /* WaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
@@ -114,6 +119,7 @@
 		8D5F14F92327AF9D00E9BF76 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8D69620C2357CFC300E0093F /* iOS-Bridging-Header.h */,
 				8D27435D23276B0A00B0E5D3 /* AppDelegate.h */,
 				8D27435E23276B0A00B0E5D3 /* AppDelegate.m */,
 				8D27436323276B0A00B0E5D3 /* Main.storyboard */,
@@ -140,6 +146,7 @@
 		8D5F14FB2327B08100E9BF76 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8D69620B2357CF4600E0093F /* 视频采集 */,
 				8DF0AB40232F9AAC00B939BF /* 瀑布流 */,
 				8D5F15032327B14500E9BF76 /* 多线程 */,
 				8D2FBD1E23401F7500886A38 /* 粒子动画效果 */,
@@ -155,6 +162,15 @@
 				8D5F15182327CB9600E9BF76 /* MultiThreadVC.m */,
 			);
 			path = "多线程";
+			sourceTree = "<group>";
+		};
+		8D69620B2357CF4600E0093F /* 视频采集 */ = {
+			isa = PBXGroup;
+			children = (
+				8D69620D2357CFC400E0093F /* AVCaptureVC.swift */,
+				8D69620F2357DA4400E0093F /* AVCaptureVC.xib */,
+			);
+			path = "视频采集";
 			sourceTree = "<group>";
 		};
 		8DF0AB40232F9AAC00B939BF /* 瀑布流 */ = {
@@ -210,6 +226,7 @@
 				TargetAttributes = {
 					8D27435923276B0A00B0E5D3 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -240,6 +257,7 @@
 				8D27436723276B0B00B0E5D3 /* Assets.xcassets in Resources */,
 				8D5F15052327B2F800E9BF76 /* MainViewController.plist in Resources */,
 				8D27436523276B0A00B0E5D3 /* Main.storyboard in Resources */,
+				8D6962102357DA4400E0093F /* AVCaptureVC.xib in Resources */,
 				8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +299,7 @@
 				8D27436D23276B0B00B0E5D3 /* main.m in Sources */,
 				8D2FBD2123401FEB00886A38 /* EmitterViewController.m in Sources */,
 				8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */,
+				8D69620E2357CFC400E0093F /* AVCaptureVC.swift in Sources */,
 				8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */,
 				8D27435F23276B0A00B0E5D3 /* AppDelegate.m in Sources */,
 				8D5F15192327CB9600E9BF76 /* MultiThreadVC.m in Sources */,
@@ -426,7 +445,9 @@
 			baseConfigurationReference = 42D3F05B22247646346DE889 /* Pods-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WFU32UD56B;
 				GCC_PREFIX_HEADER = iOS/Res/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS/Res/Info.plist;
@@ -437,6 +458,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aStudyer.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS/Main/iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -446,7 +470,9 @@
 			baseConfigurationReference = EC090370C970F446B1DA07F3 /* Pods-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WFU32UD56B;
 				GCC_PREFIX_HEADER = iOS/Res/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS/Res/Info.plist;
@@ -457,6 +483,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aStudyer.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS/Main/iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

@@ -12,6 +12,7 @@
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 
 #import "HCKeyPath.h"
+#import "iOS-Swift.h"
 
 /// 屏幕宽度
 #define ScreenW                     [UIScreen mainScreen].bounds.size.width

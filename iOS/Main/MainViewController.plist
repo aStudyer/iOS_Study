@@ -32,5 +32,15 @@
 		<key>items</key>
 		<array/>
 	</dict>
+	<dict>
+		<key>header</key>
+		<string>视频采集</string>
+		<key>footer</key>
+		<string></string>
+		<key>destVC</key>
+		<string>_TtC3iOS11AVCaptureVC</string>
+		<key>items</key>
+		<array/>
+	</dict>
 </array>
 </plist>
