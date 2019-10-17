@@ -19,6 +19,9 @@
 		8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F151C2327CD0200E9BF76 /* MultiThreadVC.plist */; };
 		8D69620E2357CFC400E0093F /* AVCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69620D2357CFC400E0093F /* AVCaptureVC.swift */; };
 		8D6962102357DA4400E0093F /* AVCaptureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D69620F2357DA4400E0093F /* AVCaptureVC.xib */; };
+		8DC949DC23592ED400EAA36D /* GPUImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC949DB23592ED400EAA36D /* GPUImageVC.swift */; };
+		8DC949DE23592F8500EAA36D /* GPUImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC949DD23592F8500EAA36D /* GPUImageVC.xib */; };
+		8DC949E02359304200EAA36D /* girl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC949DF2359304200EAA36D /* girl.jpeg */; };
 		8DF0AB43232F9B0F00B939BF /* PinterestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB42232F9B0F00B939BF /* PinterestVC.m */; };
 		8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB45232F9FF500B939BF /* WaterFallLayout.m */; };
 		8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB48232FB31200B939BF /* WaterFallCollectionViewCell.m */; };
@@ -48,6 +51,9 @@
 		8D69620C2357CFC300E0093F /* iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D69620D2357CFC400E0093F /* AVCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureVC.swift; sourceTree = "<group>"; };
 		8D69620F2357DA4400E0093F /* AVCaptureVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVCaptureVC.xib; sourceTree = "<group>"; };
+		8DC949DB23592ED400EAA36D /* GPUImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUImageVC.swift; sourceTree = "<group>"; };
+		8DC949DD23592F8500EAA36D /* GPUImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GPUImageVC.xib; sourceTree = "<group>"; };
+		8DC949DF2359304200EAA36D /* girl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpeg; sourceTree = "<group>"; };
 		8DF0AB41232F9B0F00B939BF /* PinterestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinterestVC.h; sourceTree = "<group>"; };
 		8DF0AB42232F9B0F00B939BF /* PinterestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinterestVC.m; sourceTree = "<group>"; };
 		8DF0AB44232F9FF500B939BF /* WaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 		8D5F14FB2327B08100E9BF76 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8DC949DA23592EBB00EAA36D /* GPUImage */,
 				8D69620B2357CF4600E0093F /* 视频采集 */,
 				8DF0AB40232F9AAC00B939BF /* 瀑布流 */,
 				8D5F15032327B14500E9BF76 /* 多线程 */,
@@ -171,6 +178,16 @@
 				8D69620F2357DA4400E0093F /* AVCaptureVC.xib */,
 			);
 			path = "视频采集";
+			sourceTree = "<group>";
+		};
+		8DC949DA23592EBB00EAA36D /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				8DC949DF2359304200EAA36D /* girl.jpeg */,
+				8DC949DB23592ED400EAA36D /* GPUImageVC.swift */,
+				8DC949DD23592F8500EAA36D /* GPUImageVC.xib */,
+			);
+			path = GPUImage;
 			sourceTree = "<group>";
 		};
 		8DF0AB40232F9AAC00B939BF /* 瀑布流 */ = {
@@ -259,6 +276,8 @@
 				8D5F15052327B2F800E9BF76 /* MainViewController.plist in Resources */,
 				8D27436523276B0A00B0E5D3 /* Main.storyboard in Resources */,
 				8D6962102357DA4400E0093F /* AVCaptureVC.xib in Resources */,
+				8DC949DE23592F8500EAA36D /* GPUImageVC.xib in Resources */,
+				8DC949E02359304200EAA36D /* girl.jpeg in Resources */,
 				8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +349,7 @@
 				8D27436D23276B0B00B0E5D3 /* main.m in Sources */,
 				8D2FBD2123401FEB00886A38 /* EmitterViewController.m in Sources */,
 				8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */,
+				8DC949DC23592ED400EAA36D /* GPUImageVC.swift in Sources */,
 				8D69620E2357CFC400E0093F /* AVCaptureVC.swift in Sources */,
 				8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */,
 				8D27435F23276B0A00B0E5D3 /* AppDelegate.m in Sources */,

@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     self.title = @"iOS百宝箱";
+    
 }
 
 @end
