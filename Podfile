@@ -7,5 +7,5 @@ target 'iOS' do
 
   # Pods for iOS
   pod 'HHUIBase_OC', :git => 'https://github.com/aStudyer/HHUIBase_OC.git'
-
+  pod 'GPUImage'
 end
