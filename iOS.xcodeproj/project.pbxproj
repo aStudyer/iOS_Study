@@ -22,6 +22,9 @@
 		8DC949DC23592ED400EAA36D /* GPUImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC949DB23592ED400EAA36D /* GPUImageVC.swift */; };
 		8DC949DE23592F8500EAA36D /* GPUImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC949DD23592F8500EAA36D /* GPUImageVC.xib */; };
 		8DC949E02359304200EAA36D /* girl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC949DF2359304200EAA36D /* girl.jpeg */; };
+		8DC949E22359F36C00EAA36D /* BeautyCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC949E12359F36C00EAA36D /* BeautyCameraVC.swift */; };
+		8DC949E42359FB0600EAA36D /* BeautyCameraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC949E32359FB0600EAA36D /* BeautyCameraVC.xib */; };
+		8DC949E6235A7D8900EAA36D /* RealTimeAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC949E5235A7D8900EAA36D /* RealTimeAV.swift */; };
 		8DF0AB43232F9B0F00B939BF /* PinterestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB42232F9B0F00B939BF /* PinterestVC.m */; };
 		8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB45232F9FF500B939BF /* WaterFallLayout.m */; };
 		8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0AB48232FB31200B939BF /* WaterFallCollectionViewCell.m */; };
@@ -54,6 +57,9 @@
 		8DC949DB23592ED400EAA36D /* GPUImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUImageVC.swift; sourceTree = "<group>"; };
 		8DC949DD23592F8500EAA36D /* GPUImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GPUImageVC.xib; sourceTree = "<group>"; };
 		8DC949DF2359304200EAA36D /* girl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpeg; sourceTree = "<group>"; };
+		8DC949E12359F36C00EAA36D /* BeautyCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyCameraVC.swift; sourceTree = "<group>"; };
+		8DC949E32359FB0600EAA36D /* BeautyCameraVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeautyCameraVC.xib; sourceTree = "<group>"; };
+		8DC949E5235A7D8900EAA36D /* RealTimeAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeAV.swift; sourceTree = "<group>"; };
 		8DF0AB41232F9B0F00B939BF /* PinterestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinterestVC.h; sourceTree = "<group>"; };
 		8DF0AB42232F9B0F00B939BF /* PinterestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinterestVC.m; sourceTree = "<group>"; };
 		8DF0AB44232F9FF500B939BF /* WaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
@@ -186,6 +192,9 @@
 				8DC949DF2359304200EAA36D /* girl.jpeg */,
 				8DC949DB23592ED400EAA36D /* GPUImageVC.swift */,
 				8DC949DD23592F8500EAA36D /* GPUImageVC.xib */,
+				8DC949E12359F36C00EAA36D /* BeautyCameraVC.swift */,
+				8DC949E32359FB0600EAA36D /* BeautyCameraVC.xib */,
+				8DC949E5235A7D8900EAA36D /* RealTimeAV.swift */,
 			);
 			path = GPUImage;
 			sourceTree = "<group>";
@@ -278,6 +287,7 @@
 				8D6962102357DA4400E0093F /* AVCaptureVC.xib in Resources */,
 				8DC949DE23592F8500EAA36D /* GPUImageVC.xib in Resources */,
 				8DC949E02359304200EAA36D /* girl.jpeg in Resources */,
+				8DC949E42359FB0600EAA36D /* BeautyCameraVC.xib in Resources */,
 				8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +362,8 @@
 				8DC949DC23592ED400EAA36D /* GPUImageVC.swift in Sources */,
 				8D69620E2357CFC400E0093F /* AVCaptureVC.swift in Sources */,
 				8DF0AB49232FB31200B939BF /* WaterFallCollectionViewCell.m in Sources */,
+				8DC949E22359F36C00EAA36D /* BeautyCameraVC.swift in Sources */,
+				8DC949E6235A7D8900EAA36D /* RealTimeAV.swift in Sources */,
 				8D27435F23276B0A00B0E5D3 /* AppDelegate.m in Sources */,
 				8D5F15192327CB9600E9BF76 /* MultiThreadVC.m in Sources */,
 			);

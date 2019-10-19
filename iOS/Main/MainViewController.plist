@@ -34,7 +34,7 @@
 	</dict>
 	<dict>
 		<key>header</key>
-		<string>视频采集</string>
+		<string>音视频采集</string>
 		<key>footer</key>
 		<string></string>
 		<key>destVC</key>
@@ -48,9 +48,28 @@
 		<key>footer</key>
 		<string></string>
 		<key>destVC</key>
-		<string>_TtC3iOS10GPUImageVC</string>
+		<string></string>
 		<key>items</key>
-		<array/>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>图片处理</string>
+				<key>destVC</key>
+				<string>_TtC3iOS10GPUImageVC</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>美颜相机</string>
+				<key>destVC</key>
+				<string>_TtC3iOS14BeautyCameraVC</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>实时画面</string>
+				<key>destVC</key>
+				<string>_TtC3iOS10RealTimeAV</string>
+			</dict>
+		</array>
 	</dict>
 </array>
 </plist>
