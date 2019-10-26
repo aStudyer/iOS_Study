@@ -71,5 +71,15 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>header</key>
+		<string>指定区域截屏</string>
+		<key>footer</key>
+		<string></string>
+		<key>destVC</key>
+		<string>SnapImageVC</string>
+		<key>items</key>
+		<array/>
+	</dict>
 </array>
 </plist>

@@ -14,6 +14,10 @@
 		8D27436A23276B0B00B0E5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27436823276B0B00B0E5D3 /* LaunchScreen.storyboard */; };
 		8D27436D23276B0B00B0E5D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27436C23276B0B00B0E5D3 /* main.m */; };
 		8D2FBD2123401FEB00886A38 /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2FBD2023401FEB00886A38 /* EmitterViewController.m */; };
+		8D56312D2364987E00A50B73 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D56312C2364987E00A50B73 /* UIView+Extension.m */; };
+		8D563131236498BD00A50B73 /* SnapImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D563130236498BD00A50B73 /* SnapImageVC.m */; };
+		8D563133236498CC00A50B73 /* SnapImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D563132236498CC00A50B73 /* SnapImageVC.xib */; };
+		8D5631362364998000A50B73 /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D5631352364998000A50B73 /* car.jpg */; };
 		8D5F15052327B2F800E9BF76 /* MainViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F15042327B2F800E9BF76 /* MainViewController.plist */; };
 		8D5F15192327CB9600E9BF76 /* MultiThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F15182327CB9600E9BF76 /* MultiThreadVC.m */; };
 		8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F151C2327CD0200E9BF76 /* MultiThreadVC.plist */; };
@@ -45,6 +49,12 @@
 		8D27436C23276B0B00B0E5D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D2FBD1F23401FEB00886A38 /* EmitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
 		8D2FBD2023401FEB00886A38 /* EmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		8D56312B2364987E00A50B73 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8D56312C2364987E00A50B73 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8D56312F236498BD00A50B73 /* SnapImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapImageVC.h; sourceTree = "<group>"; };
+		8D563130236498BD00A50B73 /* SnapImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapImageVC.m; sourceTree = "<group>"; };
+		8D563132236498CC00A50B73 /* SnapImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SnapImageVC.xib; sourceTree = "<group>"; };
+		8D5631352364998000A50B73 /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
 		8D5F15042327B2F800E9BF76 /* MainViewController.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MainViewController.plist; sourceTree = "<group>"; };
 		8D5F15152327C13B00E9BF76 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8D5F15162327C26600E9BF76 /* HCKeyPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCKeyPath.h; sourceTree = "<group>"; };
@@ -112,6 +122,7 @@
 		8D27435C23276B0A00B0E5D3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8D56312A2364986400A50B73 /* Extension */,
 				8D5F14FA2327AFC400E9BF76 /* Res */,
 				8D5F14F92327AF9D00E9BF76 /* Main */,
 				8D5F14FB2327B08100E9BF76 /* Classes */,
@@ -126,6 +137,26 @@
 				8D2FBD2023401FEB00886A38 /* EmitterViewController.m */,
 			);
 			path = "粒子动画效果";
+			sourceTree = "<group>";
+		};
+		8D56312A2364986400A50B73 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D56312B2364987E00A50B73 /* UIView+Extension.h */,
+				8D56312C2364987E00A50B73 /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D56312E236498A700A50B73 /* 指定区域截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				8D5631352364998000A50B73 /* car.jpg */,
+				8D56312F236498BD00A50B73 /* SnapImageVC.h */,
+				8D563130236498BD00A50B73 /* SnapImageVC.m */,
+				8D563132236498CC00A50B73 /* SnapImageVC.xib */,
+			);
+			path = "指定区域截屏";
 			sourceTree = "<group>";
 		};
 		8D5F14F92327AF9D00E9BF76 /* Main */ = {
@@ -158,6 +189,7 @@
 		8D5F14FB2327B08100E9BF76 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8D56312E236498A700A50B73 /* 指定区域截屏 */,
 				8DC949DA23592EBB00EAA36D /* GPUImage */,
 				8D69620B2357CF4600E0093F /* 视频采集 */,
 				8DF0AB40232F9AAC00B939BF /* 瀑布流 */,
@@ -283,10 +315,12 @@
 				8D27436A23276B0B00B0E5D3 /* LaunchScreen.storyboard in Resources */,
 				8D27436723276B0B00B0E5D3 /* Assets.xcassets in Resources */,
 				8D5F15052327B2F800E9BF76 /* MainViewController.plist in Resources */,
+				8D563133236498CC00A50B73 /* SnapImageVC.xib in Resources */,
 				8D27436523276B0A00B0E5D3 /* Main.storyboard in Resources */,
 				8D6962102357DA4400E0093F /* AVCaptureVC.xib in Resources */,
 				8DC949DE23592F8500EAA36D /* GPUImageVC.xib in Resources */,
 				8DC949E02359304200EAA36D /* girl.jpeg in Resources */,
+				8D5631362364998000A50B73 /* car.jpg in Resources */,
 				8DC949E42359FB0600EAA36D /* BeautyCameraVC.xib in Resources */,
 				8D5F151D2327CD0200E9BF76 /* MultiThreadVC.plist in Resources */,
 			);
@@ -356,7 +390,9 @@
 			files = (
 				8D27436223276B0A00B0E5D3 /* MainViewController.m in Sources */,
 				8DF0AB43232F9B0F00B939BF /* PinterestVC.m in Sources */,
+				8D56312D2364987E00A50B73 /* UIView+Extension.m in Sources */,
 				8D27436D23276B0B00B0E5D3 /* main.m in Sources */,
+				8D563131236498BD00A50B73 /* SnapImageVC.m in Sources */,
 				8D2FBD2123401FEB00886A38 /* EmitterViewController.m in Sources */,
 				8DF0AB46232F9FF500B939BF /* WaterFallLayout.m in Sources */,
 				8DC949DC23592ED400EAA36D /* GPUImageVC.swift in Sources */,
